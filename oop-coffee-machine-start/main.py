@@ -36,8 +36,6 @@ while is_on:
         if coffee_machine.is_resource_sufficient(drink) :
             if coin_machine.make_payment(drink.cost):
                 coffee_machine.make_coffee(drink)
-            #if is_transaction_succsesfull(payment, drink["cost"]):
-                #make_coffee(choice, drink["ingredients"])
 
 
 
